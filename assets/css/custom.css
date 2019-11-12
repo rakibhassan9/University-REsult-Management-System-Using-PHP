@@ -1,0 +1,328 @@
+/*------------signup page design start---------------*/
+
+
+.signup-main-wrapper{
+	float: left;
+	background: url(../../images/bg/signup-bg.jpg) no-repeat;
+	background-size: cover;
+	min-height: 662px;
+	height: 100%;
+	width: 100%;
+}
+
+.sigup-image-overlay-wrapper{
+	float: left;
+	width: 100%;
+	min-height: 662px;
+	height: 100%;
+	background: rgba(33,33,33,0.70);
+}
+
+.signup-uoda-logo-wrapper{
+	width: 100px;
+	height: 100px;
+	margin: 50px auto 0 auto;
+}
+
+.signup-uoda-logo-wrapper > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.signup-uoda-logo-wrapper > a > img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.signup-form-main-wrapper{
+	margin: 30px auto 0 auto;
+	width: 450px;
+	background: rgba(47,0,47,0.70);
+	padding: 40px 0 20px 0;
+}
+
+.signup-form{
+	width: 300px;
+	margin: 0 auto 0 auto;
+}
+
+.signup-form > div > label{
+	color: #FFFFFF;
+}
+
+.signup-first-name-wrapper{
+	float: left;
+	width: 47%;
+}
+
+.signup-last-name-wrapper{
+	float: right;
+	width: 47%;
+}
+
+.signup-as-radio-student{
+	float: left;
+	width: 47%;
+}
+
+.signup-as-radio-student > label{
+	padding: 7px 0 0 20px;
+}
+
+.signup-as-radio-teacher{
+	float: right;
+	width: 47%;
+}
+
+.signup-as-radio-teacher > label{
+	float: right;
+}
+
+.signup-as-radio-teacher > label{
+	padding: 7px 6px 0 0;
+}
+
+#radio-student{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	border:4px solid #ccc;
+	border-top-color:#bbb;
+	border-left-color:#bbb;
+	background:#fff;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+
+#radio-student:checked{
+	border:10px solid #4099ff;
+}
+
+#radio-teacher{
+	margin-left: 15px;
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	border:4px solid #ccc;
+	border-top-color:#bbb;
+	border-left-color:#bbb;
+	background:#fff;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+
+#radio-teacher:checked{
+	border:10px solid #4099ff;	
+}
+
+.signup-submit-button{
+	clear: both;
+	padding: 30px 0 0 0;
+}
+
+/*------------signup page design end---------------*/
+
+
+
+
+
+
+
+
+
+/*------------add subject page design start---------------*/
+
+
+.add-subject-main-wrapper{
+	float: left;
+	min-height: 662px;
+	height: 100%;
+	width: 100%;
+}
+
+.add-subject-form-main-wrapper{
+	margin: 70px auto 0 auto;
+	width: 450px;
+	background: #ededed;
+	padding: 60px 0 40px 0;
+}
+
+.add-subject-form{
+	width: 300px;
+	margin: 0 auto 0 auto;
+}
+
+.add-subject-form > div > label{
+	color: #FFFFFF;
+}
+
+.signup-submit-button{
+	clear: both;
+	padding: 30px 0 0 0;
+}
+
+#add-subject-confirm{
+	width: 100%;
+	text-align: center;
+	color: rgba(0,122,32,1.00);
+}
+
+/*------------add subject page design end---------------*/
+
+
+
+
+
+
+
+
+/*------------List subjects page design start---------------*/
+
+.subject-edit{	
+	text-align: center !important;
+}
+
+.subject-edit i{
+	font-size: 20px;
+	color: #4c83b8;
+}
+
+.subject-delete{	
+	text-align: center !important;
+}
+
+.subject-delete i{
+	font-size: 20px;
+	color: #f94343;
+}
+
+
+
+
+
+/*------------List subjects page design end---------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*------------add super admin page design start---------------*/
+
+
+.add-super-admin-main-wrapper{
+	float: left;
+	min-height: 662px;
+	height: 100%;
+	width: 100%;
+}
+
+.add-super-admin-form-main-wrapper{
+	margin: 50px auto 0 auto;
+	width: 450px;
+	background: #ededed;
+	padding: 60px 0 40px 0;
+}
+
+.add-super-admin-form-main-wrapper label{
+	color: #868e96 !important;
+}
+
+#add-super-admin-confirm{
+	width: 100%;
+	text-align: center;
+	color: rgba(0,122,32,1.00) !important;
+}
+
+
+/*------------add subject page design end---------------*/
+
+
+
+
+
+
+
+
+
+/*------------assign subject page design start---------------*/
+.teacher-select{
+	width: 100%;
+}
+
+
+
+/*------------assign subject page design end---------------*/
+
+
+
+
+
+
+
+
+/*------------Pending users page design start---------------*/
+.approveButtonIcon > i{
+	color: #00922B;
+}
+
+
+
+
+
+/*------------Pending users page design end---------------*/
+
+
+
+
+
+
+
+
+/*------------Students final result start---------------*/
+
+.final_result_wrapper{
+	margin: 40px 2px;
+}
+
+.grade_point, .letter_grade, .total_number{
+	height: 150px;
+	font-size: 60px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.grade_point > p, .letter_grade > p, .total_number > p{
+	padding-top: 20px;
+	padding-bottom: 0;
+	margin: 0;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.grade_point{
+	background: #4CB5F5;
+}
+
+.letter_grade{
+	background: #FB6542;
+}
+
+.total_number{
+	background: #2C7873;
+}
+
+
+
+
+
+/*------------Students final result end---------------*/
